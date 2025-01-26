@@ -167,7 +167,7 @@ def main() -> None:
     driver = webdriver.Chrome()
     try:
         # Login into LinkedIn
-        login(driver, user='danielbonfimsts@gmail.com', pwd='schalke04+05')
+        login(driver, user='', pwd='')
 
         # Load existent data
         existing_data = load_existing_data(output_file)
